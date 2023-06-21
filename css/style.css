@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sprite{
+    display: inline-block;
+    background: url('../img/sprite.png') no-repeat;
+    width: 250px;
+    height: 260px;
+    background-position: -0px 0;
+    animation:  movimiento .5s steps(6,end) infinite ;
+}
+@keyframes movimiento {
+    to{
+        background-position: -1500px 0;
+    }
+}
